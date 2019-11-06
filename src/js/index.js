@@ -1,8 +1,9 @@
 import _ from 'lodash'
+import '../style/style.scss'
 
-function component() {
+async function component() {
   const element = document.createElement('div');
-
+  console.log(111)
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
   return element;

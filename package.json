@@ -5,8 +5,16 @@
   "repository": "git@github.com:zch233/webpack-demo1.git",
   "author": "zhangchao <529743595@qq.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
   "dependencies": {
+    "css-loader": "^3.2.0",
     "lodash": "^4.17.15",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   }
