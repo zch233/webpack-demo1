@@ -1,0 +1,13 @@
+{
+  "name": "webpack-demo1",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:zch233/webpack-demo1.git",
+  "author": "zhangchao <529743595@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
